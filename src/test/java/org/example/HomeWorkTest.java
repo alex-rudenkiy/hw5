@@ -10,7 +10,8 @@ class HomeWorkTest {
 
     @Test
     void check() {
-        assertEquals(1.1, 1.101, 0.0001);
+        HomeWork hw = new HomeWork();
+        assertEquals(-1.0, hw.calculate("1 + 2 * ( 3 - 4 )"), 0.0001);
     }
 
 }
